@@ -31,6 +31,9 @@ main {
         border: 3px solid $accent-color !important;
         background-color: $white-color !important;
     }
+    .vp-height-fix {
+        margin-bottom: 215px;
+    }    
     
     @media (max-width: 992px) {
         .mt-4 {
@@ -50,9 +53,4 @@ main {
             flex: 0 0 250px;
         }
     }
-
-.vp-height-fix {
-    margin-bottom: 115px;
-}
-
 }
