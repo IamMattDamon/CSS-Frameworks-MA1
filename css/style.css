@@ -95,8 +95,9 @@ h2 {
 }
 
 .page-heading {
-  font-weight: bold;
   margin: 0 auto;
+  color: #463F3A;
+  font-weight: 600;
 }
 
 .footer__item p {
