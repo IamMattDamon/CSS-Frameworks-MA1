@@ -1,0 +1,30 @@
+h1,
+h2 {
+    font-family: "Open Sans", sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 2em;
+    font-family: "Open Sans", sans-serif;
+}
+
+.nav-item {
+    font-family: "Archivo Narrow", sans-serif;
+    font-size: 1.25em;
+
+}
+.page-heading {
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.footer__item p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.25em;
+}
+
+footer p {
+    color: $primary-color !important;
+    font-weight: bold !important;
+}

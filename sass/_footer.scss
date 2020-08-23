@@ -1,0 +1,31 @@
+footer {
+    .container {
+        padding: 1em 1.5em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 0.8em;
+        color: $primary-color !important;
+        font-family: "Open Sans", sans-serif;
+        width: 90%;
+        margin: 0 auto;
+
+        @media (max-width: 576px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+    }
+
+    .footer {
+        &__item {
+            padding: 0.25em 0;
+        }
+    }
+}
+
+
+
+
+

@@ -1,0 +1,15 @@
+nav {
+    background-color: $light-color !important;
+
+    .container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .active a.nav-link {
+        color: $accent-color !important;
+    }
+    .navbar-toggler {
+        border-color: $light-color !important;
+    }
+}

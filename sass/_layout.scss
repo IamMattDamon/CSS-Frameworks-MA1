@@ -1,0 +1,58 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    height: 100%;
+    background-color: $white-color;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    background-color: $gray-color!important;
+
+    .col-md {
+        height: 250px;
+        flex: 0 0 250px;
+        border-radius: 15px;
+    }
+    .regular {
+        background: $light-color !important;
+    }
+    .hibiscus {
+        background-color: $accent-color !important;
+    }
+    .hibiscus-border {
+        border: 3px solid $accent-color !important;
+        background-color: $white-color !important;
+    }
+    
+    @media (max-width: 992px) {
+        .mt-4 {
+            margin-top: 0rem !important;
+        }
+        .regular {
+            margin-bottom: 1.5em;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .col-md {
+            height: 250px;
+            flex: 0 0 250px;
+        }
+    }
+
+.vp-height-fix {
+    margin-bottom: 115px;
+}
+
+}
