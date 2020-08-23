@@ -44,6 +44,10 @@ main .hibiscus-border {
   background-color: #FFFFFF !important;
 }
 
+main .vp-height-fix {
+  margin-bottom: 215px;
+}
+
 @media (max-width: 992px) {
   main .mt-4 {
     margin-top: 0rem !important;
@@ -72,10 +76,6 @@ main .hibiscus-border {
         -ms-flex: 0 0 250px;
             flex: 0 0 250px;
   }
-}
-
-main .vp-height-fix {
-  margin-bottom: 115px;
 }
 
 h1,
